@@ -79,7 +79,11 @@ body {
     line-height: 1.5;
     color: #564745;
     text-align: left;
-    background-image: linear-gradient(to bottom right, #C7CBCA, #564745);
+}
+
+#main-content {
+    margin-top: 100px;
+    background-image: linear-gradient(to bottom, #C7CBCA, #564745);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6742,12 +6746,13 @@ a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-    background-color: #858181 !important;
+    background-color: #564745 !important;
+    color: #C7CBCA !important;
 }
 
 .bg-secondary {
-    /* background-image: linear-gradient(to right, #C7CBCA, #564745, #564745); */
-    background-color: #564745;
+    /* background-image: linear-gradient(to bottom, #C7CBCA, #C7CBCA, #C7CBCA, #C7CBCA, #C7CBCA, #C7CBCA, rgba(0, 0, 0, 0)); */
+    background-color: #C7CBCA;
 }
 
 a.bg-secondary:hover,
@@ -10228,7 +10233,7 @@ a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #C7CBCA;
+    color: #564745;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -10237,7 +10242,7 @@ a.text-dark:focus {
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active,
 #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-    color: #C7CBCA;
+    color: #564745;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -10263,14 +10268,14 @@ a.text-dark:focus {
         margin-top: 0;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active {
-        color: #564745;
-        background: #C7CBCA;
+        color: #C7CBCA;
+        background: #564745;
     }
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
     #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
-        color: #564745;
-        background: #C7CBCA;
+        color: #C7CBCA;
+        background: #564745;
     }
     #mainNav.navbar-shrink {
         padding-top: 0.5rem;
